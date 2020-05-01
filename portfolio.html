@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta charset="utf-8">
+<meta name="keywords" content="web design,websites, designer,san antonio,web development,portfolio,services,html,css,graphics,banners">
+  <meta name="author" content="Itsy Felix">	
+<title>Itsy Felix Design</title>	
+<link href="CSS/styles.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('Images/home-hover.png','Images/about-hover.png','Images/portfolio-hover.png','Images/pricing-hover.png','Images/contact-hover.png')">
+<div class="container">
+<div class="header">
+	<img id="headerphoto" alt="logo" src="Images/Itsylogo2.png">
+	<div class="navbar"><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('home','','Images/home-hover.png',1)"><img src="Images/home-button.png" alt="home button" width="125" height="42" id="home"></a><a href="about.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('about','','Images/about-hover.png',1)"><img src="Images/about-button.png" alt="about button" width="125" height="42" id="about"></a><a href="portfolio.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('portfolio','','Images/portfolio-hover.png',1)"><img src="Images/portfolio-button.png" alt="portfolio button" width="125" height="42" id="portfolio"></a><a href="pricing.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('pricing','','Images/pricing-hover.png',1)"><img src="Images/pricing-button.png" alt="pricing button" width="125" height="42" id="pricing"></a><a href="contact.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contact','','Images/contact-hover.png',1)"><img src="Images/contact-button.png" alt="contact button" width="125" height="42" id="contact"></a>
+		<input type="search" name="search" id="search" placeholder="search">
+	</div>
+  </div>	
+<div class="content">
+<h2>Portfolio</h2>
+	<p>You can check out some of my work <a href="https://github.com/Itsy0507" target="_blank">here!</a></p>
+<hr/>	
+<h2>Services</h2>	
+<div class="table">	
+<table width="900" border="1" cellspacing="5" cellpadding="5">
+  <tbody>
+    <tr>
+	   <td><img src="Images/coding.jpg"></td>
+      <td>&nbsp;Coding /&nbsp; Development</td>	
+    </tr>
+    <tr>
+	   <td><img src="Images/website.jpg"></td>
+       <td>Web design</td>
+    </tr>
+    <tr>
+      <td><img src="Images/animatedbanner.gif"></td>
+      <td>&nbsp;Animated Banners</td>
+    </tr>
+    <tr>
+      <td><img src="Images/logorecreation.png"></td>
+      <td>&nbsp;Logo Recreation</td>
+    </tr>
+    <tr> 
+      <td><img src="Images/Fish.png"></td>
+      <td>&nbsp;Printable Graphics</td>
+    </tr>
+  </tbody>
+</table>
+
+	</div>
+	
+<footer>
+	<p>© Itsy Felix | All Rights Reserved</p>	
+	</footer>	
+	</div>		
+	</div>	
+	
+</body>
+</html>
